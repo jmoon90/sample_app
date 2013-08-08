@@ -1,5 +1,5 @@
 SampleApp::Application.routes.draw do
-  get "users/new"
+  resources :users
 
   get "foo_bars/baz"
   get "foo_bars/quux"
